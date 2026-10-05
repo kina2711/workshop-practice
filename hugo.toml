@@ -1,0 +1,9 @@
+baseURL = "https://kina2711.github.io/workshop-practice/"
+# absolute links such as /images/... stay correct under the /workshop-practice/ sub-path
+canonifyURLs = true
+languageCode = "vi"
+title = "Workshop thực hành"
+theme = "hugo-theme-learn"
+
+[outputs]
+home = ["HTML", "RSS", "JSON"]
